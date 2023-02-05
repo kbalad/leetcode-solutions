@@ -2,9 +2,9 @@ package kbalad.graph;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class _1971_FindIfPathExistsInGraphTest {
+class _1971_FindIfPathExistsInGraphBFSTest {
 
     @Test
     void validPath_1() {
@@ -17,7 +17,7 @@ class _1971_FindIfPathExistsInGraphTest {
         int source = 0;
         int dest = 2;
 
-        boolean a = new _1971_FindIfPathExistsInGraph().validPath(n, edges, source, dest);
+        boolean a = new _1971_FindIfPathExistsInGraph_BFS().validPath(n, edges, source, dest);
         boolean e = true;
 
         assertEquals(e, a);
@@ -36,7 +36,7 @@ class _1971_FindIfPathExistsInGraphTest {
         int source = 0;
         int dest = 5;
 
-        boolean a = new _1971_FindIfPathExistsInGraph().validPath(n, edges, source, dest);
+        boolean a = new _1971_FindIfPathExistsInGraph_BFS().validPath(n, edges, source, dest);
         boolean e = false;
 
         assertEquals(e, a);

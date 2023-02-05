@@ -2,7 +2,7 @@ package kbalad.graph;
 
 import java.util.*;
 
-public class _797_AllPathsFromSourceToTarget {
+public class _797_AllPathsFromSourceToTarget_DFS {
     int[][] graph;
     List<List<Integer>> res;
 

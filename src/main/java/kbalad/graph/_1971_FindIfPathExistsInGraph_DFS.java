@@ -1,6 +1,6 @@
 package kbalad.graph;
 
-public class _1971_FindIfPathExistsInGraph {
+public class _1971_FindIfPathExistsInGraph_DFS {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
         UnionFind uf = new UnionFind(n);
         for (int[] edge : edges) {
